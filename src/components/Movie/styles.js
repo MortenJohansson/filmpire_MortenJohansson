@@ -28,9 +28,10 @@ export default makeStyles((theme) => ({
     color: theme.palette.text.primary,
     textOverflow: 'ellipsis',
     width: '230px',
-    whiteSpace: 'hidden',
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
     marginTop: '10px',
-    marginBottom: '0',
+    marginBottom: 0,
     textAlign: 'center',
   },
 }));
